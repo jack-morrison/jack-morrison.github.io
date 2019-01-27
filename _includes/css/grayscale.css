@@ -138,7 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(/img/theta_cropped_dark.jpeg) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -166,22 +166,23 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 60px;
     }
 
     .intro .intro-body .intro-text {
         font-size: 25px;
+        margin-top:-30px;
     }
 }
 
 .btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+    margin-top: 100px;
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 35px;
-    font-size: 40px;
+    font-size: 35px;
     color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
@@ -193,7 +194,7 @@ a:focus {
 .btn-circle:focus {
     outline: 0;
     color: #fff;
-    background: rgba(255,255,255,.1);
+    background: rgba(255,255,255,.2);
 }
 
 .btn-circle i.animated {
@@ -214,7 +215,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -231,7 +232,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -252,11 +253,11 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.my-work-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(/img/titan-long.jpeg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -275,7 +276,7 @@ a:focus {
         padding-top: 200px;
     }
 
-    .download-section {
+    .my-work-section {
         padding: 100px 0;
     }
 
@@ -339,6 +340,7 @@ footer {
 }
 
 footer p {
+    font-size:13px;
     margin: 0;
 }
 
